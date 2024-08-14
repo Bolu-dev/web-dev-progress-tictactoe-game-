@@ -1,0 +1,91 @@
+/* styling the config overlay */
+#config-overlay {
+  text-align: center;
+}
+
+/* spacing the h2 in the form*/
+#config-overlay h2 {
+  margin: 0.5rem 0;
+}
+
+/* styling the form */
+
+.form-control {
+  margin: 0.5rem;
+}
+
+.form-control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  width: 15rem;
+  padding: 0.5rem;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 6px;
+  font: inherit;
+  margin-bottom: 1rem;
+}
+
+/* error style(JS) */
+
+.error label {
+  color: rgb(136, 2, 2);
+}
+
+.error input {
+  border-color: rgb(136, 2, 2);
+  color: rgb(136, 2, 2);
+  background-color: rgb(253, 219, 219);
+}
+
+/* styling the game config */
+
+#game-config {
+  width: 90%;
+  max-width: 40rem;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+#game-config ol {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#game-config li {
+  width: 50%;
+  background-color: rgb(243, 227, 255);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+#game-config h2 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+#game-config h3 {
+  font-size: 1.2rem;
+  color: rgb(94, 4, 168);
+  margin: 0.5rem 0;
+}
+
+.symbol {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  font-weight: bold;
+  color: rgb(47, 4, 82);
+}
+
+#color {
+  background-color: rgb(140, 0, 255);
+  border-radius: 20px;
+  /* padding: 0.2rem; */
+}

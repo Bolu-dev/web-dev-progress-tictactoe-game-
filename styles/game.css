@@ -1,0 +1,63 @@
+#active-game {
+  text-align: center;
+  margin: 2rem 0 5rem 0;
+  display: none;
+}
+
+/* game won popup */
+
+#game-won {
+  background-color: rgb(75, 15, 123);
+  color: rgb(233, 221, 221);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 20rem;
+  margin: auto;
+  padding: 1rem 2rem;
+  border-radius: 18px;
+  display: none;
+}
+
+#game-won h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+#active-game {
+  color: rgb(50, 5, 87);
+  font-weight: bold;
+}
+
+/* the game board */
+#game-board {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 8rem); /* 6rem 6rem 6rem*/
+  grid-template-rows: repeat(3, 7.5rem);
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#game-board li {
+  background-color: rgb(215, 187, 247);
+  border-radius: 2px;
+  cursor: pointer;
+  /* to horizontally and vertically center the symbols(X & O) in the grid */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#game-board li:hover {
+  background-color: rgb(112, 13, 204);
+}
+
+#game-board li.disabled {
+  background-color: rgb(112, 13, 204);
+  color: white;
+  cursor: default;
+}
